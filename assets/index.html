@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Saftey Medal</title>
+  <!-- Icon Css Incloude-->
+  <link rel="stylesheet" href="css/all.css" />
+  <!-- Google font link -->
+  <link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet">
+  <!-- Css Frameworks Include-->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- Carousel Css Include-->
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/aos.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <!-- Custom Css Include-->
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+
+  <!-- start button UP -->
+  <div id="btnUp" class="text-center">
+    <i class="fas fa-angle-double-up"></i>
+  </div>
+  <!-- end button UP -->
+  <!-- Header Section - Start  -->
+  <header class="header">
+
+    <!-- start Loading  section-->
+    <section class="loading ">
+      <div class="SpacedDiv"></div>
+      <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+    </section>
+    <!-- end Loading  section-->
+
+
+
+    <!-- Start navBar -->
+    <nav class="navbar navbar-expand-lg navbar-light  team-nav  overflow-hidden ">
+      <div class="container-fluid">
+
+        <div class="w-50 my-lg-3">
+          <a class="navbar-brand" href="#"><img src="Images/SafteyLOGO.jpg" class="img-fluid"></a>
+          
+        </div>
+        <div class="animatedToggler  d-lg-none my-3 mx-3 " data-toggle="collapse"
+          data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+          aria-label="Toggle navigation" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+
+        <div class="collapse navbar-collapse visible-lg-block text-right" id="collapsibleNavId">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class=" SagelNow mb-2" href="#"><span>سجل الان</span><i class="fas fa-file-signature"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border-hover" href="#" id="smallScreenColor">من نحن</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border-hover" id="smallScreenColor" href="#">تابع طلبك</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border-hover" id="smallScreenColor" href="#">الرئيسيه</a>
+            </li>
+          </ul>
+
+        </div>
+
+
+      </div>
+    </nav>
+    <!-- end navBar -->
+  </header>
+  <!-- Header Section - End-->
+
+  <!-- Main Content - Start -->
+  <main>
+
+    <!-- start children saver section -->
+    <section class="childSaver">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="caption">
+              <h1>حفاظا علي سلامتك و سلامه اولادك</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="ChildDetails text-center">
+                  <h4><i class="fas fa-truck-loading icoHidden"></i><span>سوف يصل طلبك خلال من 5 الي 7 ايام</span><i class="fas fa-truck-loading"></i></h4>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="ChildDetails text-center">
+                  <h4><i class="fas fa-medal icoHidden"></i><span>اطبع الكود علي الميداليه</span><i class="fas fa-medal"></i></h4>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="ChildDetails text-center">
+                  <h4><i class="fas fa-mobile-alt icoHidden"></i><span>سوف نتصل بك في خلال 24 ساعه</span><i class="fas fa-mobile-alt"></i></h4>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="ChildDetails text-center">
+                  <h4><i class="fas fa-qrcode icoHidden"></i><span>قم بتفعيل الكود الخاص بك</span><i class="fas fa-qrcode"></i> </h4>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- inputs and QRcode part -->
+      <div class="QRinput my-4">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="QRcode">
+              <img src="Images/qr_code_PNG2.webp" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="inputsPart">
+              <h2>ادخل البيانات الخاصه بك</h2>
+              <input type="text" class="form-control text-right" placeholder="ادخل الاسم">
+              <input type="text" class="form-control text-right" placeholder="ادخل الجوال">
+              <input type="text" class="form-control text-right" placeholder="اضف رقم احد الاقارب -اختياري">
+              <input type="text" class="form-control text-right" placeholder="ادخل العنوان">
+              <div class="text-right">               
+                 <button class="deleteBtn">إلغاء الطلب</button>
+                 <button class="addtionalRequestBtn">طلب اضافي</button>
+                 <button class="ConfirmBtn">تأكيد</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start additional section -->
+    <section class="additionSection my-5">
+      <div class="contManual">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="additionalQR">
+              <img src="Images/qr_code_PNG2.webp" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6">
+              <div class="additionalInputs">
+                <h2>أدخل البيانات الخاصه بالطلب الاضافي</h2>
+                <input type="text" class="form-control text-right" placeholder="ادخل الاسم">
+                <input type="text" class="form-control text-right" placeholder="ادخل الجوال">
+                <input type="text" class="form-control text-right" placeholder="اضف رقم احد الاقارب -اختياري">
+                <input type="text" class="form-control text-right" placeholder="ادخل العنوان">
+                <div class="text-right">
+                
+                
+                <button class="deleteBtn2">إلغاء الطلب</button>
+                <!-- <button class="addtionalRequestBtn2">طلب اضافي</button> -->
+                <button class="ConfirmBtn2">تأكيد</button>
+               </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    <!-- end additional section -->
+
+    <!-- end children saver section -->
+
+
+    <!-- start sign user data  -->
+    <section class="userData my-5">
+        <div class="confirmationSection">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 text-center">
+                  <div class="priceOffer">
+                    <h4>إجمالي التكلفه</h4>
+                    <h2 class="m-0">150</h2>
+                    <p>جنـــيه</p>
+                    <p>+</p>
+                    <p class="pb-5">٢٠ مصاريف الشحن</p>
+                  </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                  <div class="appRegister">
+                    <h2 class="text-center">أدخل البيانات الخاصه بك لتأكيد الطلب</h2>
+                    <input type="text" class="form-control text-center" placeholder="أدخل الاسم">
+                    <input type="text" class="form-control text-center" placeholder="أدخل الجوال">
+                    <div class="form-group my-2">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <optgroup label="اختر المنطقه">
+                              <option>القاهره</option>
+                              <option>القاهره</option>
+                              <option>المنصوره</option>
+                              <option>الاسكندريه</option>
+                              <option>الاقصر</option>
+                              <option>الغردقه</option>
+                          </optgroup>
+                        </select>
+                      </div>
+                    <input type="text" class="form-control text-center" placeholder="أدخل العنوان">
+                      <button class="Registeration">تسجيل الطلب</button>
+
+                  </div>
+                </div>  
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- end sign user data -->
+
+
+
+
+  </main>
+  <!-- Main Content - End -->
+
+  <!-- Footer Section - Start -->
+  <footer class="footer">
+
+    <!-- start copyright footer -->
+    <div class="copy-right text-center mt-5">
+      <p class="text-white">جميع الحقوق محفوظه</p>
+    </div>
+    <!-- end copyright footer -->
+  </footer>
+  <!-- Footer Section - End -->
+
+
+  <!-- This Is All Plugins used-->
+  <!-- JQuery Plugins include-->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Custom JQuery File-->
+  <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
