@@ -456,6 +456,13 @@ body {
 
         .appRegister
         {
+            .form-group
+            {
+                select
+                {
+                    text-align-last: center;
+                }
+            }
             h2
             {
                 text-align: right;
